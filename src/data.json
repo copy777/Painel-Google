@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name": "Pizzaria Bela Napoli",
+    "phone": "5566999001122",
+    "fullAddress": "Av. Governador Júlio Campos, 123 - Centro",
+    "city": "Sinop-MT",
+    "category": "Pizzaria",
+    "website": ""
+  },
+  {
+    "id": "2",
+    "name": "Tex-Mex Sinop",
+    "phone": "5566999112233",
+    "fullAddress": "Rua das Azaléias, 45 - Jd. Botânico",
+    "city": "Sinop-MT",
+    "category": "Restaurante",
+    "website": ""
+  },
+  {
+    "id": "3",
+    "name": "Restaurante Sabor da Roça",
+    "phone": "5564999334455",
+    "fullAddress": "Avenida Presidente Vargas, 89",
+    "city": "Rio Verde-GO",
+    "category": "Restaurante",
+    "website": ""
+  },
+  {
+    "id": "4",
+    "name": "Oficina do João Mecânica",
+    "phone": "5564999556677",
+    "fullAddress": "Rua Costa e Silva, 234",
+    "city": "Rio Verde-GO",
+    "category": "Serviços Automotivos",
+    "website": ""
+  },
+  {
+    "id": "5",
+    "name": "Boutique Fashion SC",
+    "phone": "5547999887766",
+    "fullAddress": "Rodovia Antônio Heil, 1500",
+    "city": "Brusque-SC",
+    "category": "Loja de Roupas",
+    "website": null
+  },
+  {
+    "id": "6",
+    "name": "Padaria Nosso Pão",
+    "phone": "5547999115599",
+    "fullAddress": "Rua Azambuja, 78",
+    "city": "Brusque-SC",
+    "category": "Padaria",
+    "website": ""
+  },
+  {
+    "id": "7",
+    "name": "Farmácia DrogaBem",
+    "phone": "5566998881234",
+    "fullAddress": "Av. dos Ipês, 555",
+    "city": "Sinop-MT",
+    "category": "Farmácia",
+    "website": ""
+  }
+]
