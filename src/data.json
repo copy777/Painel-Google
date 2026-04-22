@@ -371,5 +371,60 @@
     "fullAddress": "Av. Nossa Sra. de Copacabana, 187 - Loja D - Copacabana, Rio de Janeiro - RJ, 22020-002, Brasil",
     "website": "",
     "searchTerm": "barbearias em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSmJfWXNC",
+    "name": "Nay Cabeleireira express",
+    "category": "Cabeleireiro",
+    "city": "Campinas",
+    "phone": "+55 19 98823-7433",
+    "cleanPhone": "+5519988237433",
+    "fullAddress": "R. Argentina, 807 - Jardim do Trevo, Campinas - SP, 13040-017, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Campinas SP"
+  },
+  {
+    "id": "Q2hJSlVYU1Vw",
+    "name": "Casa L'Ellit",
+    "category": "Salão de Beleza",
+    "city": "Campinas",
+    "phone": "+55 19 3365-7011",
+    "cleanPhone": "+551933657011",
+    "fullAddress": "R. Maria Conceição F. de Andrade, 209 - Nova Campinas, Campinas - SP, 13092-190, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Campinas SP"
+  },
+  {
+    "id": "Q2hJSjhfZUVX",
+    "name": "Studio Luana Rodrigues",
+    "category": "Salão de Beleza",
+    "city": "Campinas",
+    "phone": "+55 19 98173-0401",
+    "cleanPhone": "+5519981730401",
+    "fullAddress": "Rua Dr. Costa Aguiar, 205 - Centro - Centro, Campinas - SP, 13010-060, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Campinas SP"
+  },
+  {
+    "id": "Q2hJSkNSaFpl",
+    "name": "La Concept Salão de Beleza",
+    "category": "Cabeleireiro",
+    "city": "Campinas",
+    "phone": "+55 19 98945-5179",
+    "cleanPhone": "+5519989455179",
+    "fullAddress": "R. João Batista Alves de Souza, 303 - Parque Industrial, Campinas - SP, 13031-680, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Campinas SP"
+  },
+  {
+    "id": "Q2hJSklXU210",
+    "name": "Espaço Fluir Saúde e Beleza em Campinas",
+    "category": "Salão de Beleza",
+    "city": "Campinas",
+    "phone": "+55 19 98820-6334",
+    "cleanPhone": "+5519988206334",
+    "fullAddress": "R. Cândido Mota, 410 - Fundacao da Casa Popular, Campinas - SP, 13031-385, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Campinas SP"
   }
 ]
