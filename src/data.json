@@ -558,5 +558,126 @@
     "fullAddress": "R. Campo Alegre, 80 - Floresta, Belo Horizonte - MG, 31015-200, Brasil",
     "website": "",
     "searchTerm": "oficinas mecânicas em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSk14bEJr",
+    "name": "Auto Mecânica RJ",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 99638-4875",
+    "cleanPhone": "+5521996384875",
+    "fullAddress": "R. Teixeira de Azevedo, 172 - Abolição, Rio de Janeiro - RJ, 20755-260, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSjZkcXBw",
+    "name": "Oficina Mecânica Rio",
+    "category": "Mecânica para carros",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 2502-5355",
+    "cleanPhone": "+552125025355",
+    "fullAddress": "R. Heitor Carrilho, 13 - Cidade Nova, Rio de Janeiro - RJ, 20211-025, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSjZYMWw3",
+    "name": "Auto Center Riachuelo",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 2221-4055",
+    "cleanPhone": "+552122214055",
+    "fullAddress": "atendimento via WhatsApp - R. Riachuelo, 388 - 21) 38274055 - Centro, Rio de Janeiro - RJ, 20230-240, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSkhVOHJE",
+    "name": "Auto Mecânica Aline",
+    "category": "Mecânico",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 99051-8530",
+    "cleanPhone": "+5521990518530",
+    "fullAddress": "R. Sr. de Matosinhos, 175 - Cidade Nova, Rio de Janeiro - RJ, 20211-070, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSkwzbTUz",
+    "name": "Dallas Auto Mecânica",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 2569-4671",
+    "cleanPhone": "+552125694671",
+    "fullAddress": "R. Sotero dos Reis, 97 - Praça da Bandeira, Rio de Janeiro - RJ, 20270-200, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSkJZRTI1",
+    "name": "Loira Auto Center - Mecânica Oficina",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 96428-7308",
+    "cleanPhone": "+5521964287308",
+    "fullAddress": "R. Aristídes Lôbo, 67 - Rio Comprido, Rio de Janeiro - RJ, 20250-450, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSk02Wjkz",
+    "name": "Oficina Mecânica Royal Motor Sport",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 97021-3069",
+    "cleanPhone": "+5521970213069",
+    "fullAddress": "R. Anspecada Melo, 64 - Olaria, Rio de Janeiro - RJ, 21021-400, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSi13UEx1",
+    "name": "Auto Mecânica Autogiro",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 98209-1996",
+    "cleanPhone": "+5521982091996",
+    "fullAddress": "R. Campos da Paz, 174 - Rio Comprido, Rio de Janeiro - RJ, 20250-460, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSnNmUGhz",
+    "name": "Auto Mecânica HK",
+    "category": "Serviços de usinagem automotiva",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 99472-6682",
+    "cleanPhone": "+5521994726682",
+    "fullAddress": "R. José Eugênio, 31 - Imperial de São Cristóvão, Rio de Janeiro - RJ, 20941-140, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSjA2V1ZU",
+    "name": "Éticar Auto Center",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 98233-2312",
+    "cleanPhone": "+5521982332312",
+    "fullAddress": "R. Delgado de Carvalho, 13 - Tijuca, Rio de Janeiro - RJ, 20260-280, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSnc3NUo2",
+    "name": "JJR Mecanica (Juninho)",
+    "category": "Oficina mecânica",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 97044-1044",
+    "cleanPhone": "+5521970441044",
+    "fullAddress": "Av. Pres. Vargas, 2940 - Cidade Nova, Rio de Janeiro - RJ, 20210-031, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
   }
 ]
