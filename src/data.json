@@ -756,5 +756,49 @@
     "fullAddress": "Av. Ver. José Monteiro, 1730 - Quadra 8 Lote 4 - Setor Negrão de Lima, Goiânia - GO, 74650-300, Brasil",
     "website": "",
     "searchTerm": "farmácias em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSlN6M3RM",
+    "name": "Mercado Municipal Adolpho Lisboa",
+    "category": "Mercado",
+    "city": "Manaus",
+    "phone": "+55 92 3215-3473",
+    "cleanPhone": "+559232153473",
+    "fullAddress": "R. dos Barés, 46 - Centro, Manaus - AM, 69009-365, Brasil",
+    "website": "",
+    "searchTerm": "supermercados em Manaus AM"
+  },
+  {
+    "id": "Q2hJSkhjSkFy",
+    "name": "Supermercado Resende",
+    "category": "Supermercado",
+    "city": "Manaus",
+    "phone": "+55 92 99488-7700",
+    "cleanPhone": "+5592994887700",
+    "fullAddress": "R. Almeron Caminha, 130 - Petrópolis, Manaus - AM, 69067-200, Brasil",
+    "website": "",
+    "searchTerm": "supermercados em Manaus AM"
+  },
+  {
+    "id": "Q2hJSm41QTVZ",
+    "name": "Emporium Rodrigues",
+    "category": "Supermercado",
+    "city": "Manaus",
+    "phone": "+55 92 2101-7575",
+    "cleanPhone": "+559221017575",
+    "fullAddress": "Av. João Valério, 291 - Nossa Sra. das Graças, Manaus - AM, 69053-540, Brasil",
+    "website": "",
+    "searchTerm": "supermercados em Manaus AM"
+  },
+  {
+    "id": "Q2hJSlJlczBX",
+    "name": "CN Supermercado",
+    "category": "Supermercado",
+    "city": "Manaus",
+    "phone": "+55 92 99199-9940",
+    "cleanPhone": "+5592991999940",
+    "fullAddress": "R. do Comercio, 14 - Parque 10 de Novembro, Manaus - AM, 69055-000, Brasil",
+    "website": "",
+    "searchTerm": "supermercados em Manaus AM"
   }
 ]
