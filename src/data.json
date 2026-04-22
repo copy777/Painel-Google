@@ -8,5 +8,27 @@
     "cleanPhone": "+551935795125",
     "fullAddress": "R. dos Bandeirantes, 66 - Cambuí, Campinas - SP, 13024-010, Brasil",
     "website": ""
+  },
+  {
+    "id": "Q2hJSm4wWjFG",
+    "name": "Dona Fulô | BH",
+    "category": "Restaurante",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 2516-8973",
+    "cleanPhone": "+553125168973",
+    "fullAddress": "R. Santa Catarina, 778 - Lourdes, Belo Horizonte - MG, 30170-081, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSmt5SXJx",
+    "name": "Restaurante Beco",
+    "category": "Restaurante brasileiro",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3272-1489",
+    "cleanPhone": "+553132721489",
+    "fullAddress": "R. dos Tamóios, 232 - Centro, Belo Horizonte - MG, 30120-050, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Belo Horizonte MG"
   }
 ]
