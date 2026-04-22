@@ -96,5 +96,49 @@
     "fullAddress": "653 11th Ave 16th Floor, New York, NY 10036",
     "website": "",
     "searchTerm": "restaurantes em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSno2R3Fx",
+    "name": "Restaurante Leite",
+    "category": "Restaurante",
+    "city": "Recife",
+    "phone": "+55 81 3224-7977",
+    "cleanPhone": "+558132247977",
+    "fullAddress": "Praça Joaquim Nabuco, 147 - Santo Antônio, Recife - PE, 50010-480, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Recife PE"
+  },
+  {
+    "id": "Q2hJSkd5ZFJ5",
+    "name": "Entre Amigos Praia",
+    "category": "Restaurante",
+    "city": "Recife",
+    "phone": "+55 81 3127-2510",
+    "cleanPhone": "+558131272510",
+    "fullAddress": "Av. Boa Viagem, 760 - Boa Viagem, Recife - PE, 51011-000, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Recife PE"
+  },
+  {
+    "id": "Q2hJSmlaNzQ4",
+    "name": "Entre Amigos O Bode Espinheiro",
+    "category": "Restaurante brasileiro",
+    "city": "Recife",
+    "phone": "+55 81 3222-6705",
+    "cleanPhone": "+558132226705",
+    "fullAddress": "R. da Hora, 695 - Espinheiro, Recife - PE, 52020-100, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Recife PE"
+  },
+  {
+    "id": "Q2hJSld5MHZR",
+    "name": "Adega do Futuro - Gastronomia Contemporânea & Wine Bar",
+    "category": "Restaurante",
+    "city": "Recife",
+    "phone": "+55 81 98179-4018",
+    "cleanPhone": "+5581981794018",
+    "fullAddress": "R. do Futuro, 634 - Graças, Recife - PE, 52050-005, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Recife PE"
   }
 ]
