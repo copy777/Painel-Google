@@ -855,5 +855,27 @@
     "fullAddress": "R. do Tamarineiro, 23 - Itapuã, Salvador - BA, 41610-430, Brasil",
     "website": "",
     "searchTerm": "lojas de roupa em Salvador BA"
+  },
+  {
+    "id": "Q2hJSlNURVU2",
+    "name": "Odontologia Curitiba - Dra Priscila Albini",
+    "category": "Ortodontista",
+    "city": "Curitiba",
+    "phone": "+55 41 98484-7742",
+    "cleanPhone": "+5541984847742",
+    "fullAddress": "R. Major Vicente de Castro, 1124 - Fanny, Curitiba - PR, 81030-020, Brasil",
+    "website": "",
+    "searchTerm": "dentistas em Curitiba PR"
+  },
+  {
+    "id": "Q2hJSk5aYUVk",
+    "name": "Dra. Carolina Dreher - Dentista em Curitiba",
+    "category": "Dentista",
+    "city": "Curitiba",
+    "phone": "+55 41 99134-2466",
+    "cleanPhone": "+5541991342466",
+    "fullAddress": "Av. São José, 618 - Sala 1001 - Cristo Rei, Curitiba - PR, 80050-350, Brasil",
+    "website": "",
+    "searchTerm": "dentistas em Curitiba PR"
   }
 ]
