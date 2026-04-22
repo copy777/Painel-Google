@@ -426,5 +426,71 @@
     "fullAddress": "R. Cândido Mota, 410 - Fundacao da Casa Popular, Campinas - SP, 13031-385, Brasil",
     "website": "",
     "searchTerm": "salão de beleza em Campinas SP"
+  },
+  {
+    "id": "Q2hJSkJlYzlZ",
+    "name": "Salão de Beleza Extrabella",
+    "category": "Salão de Beleza",
+    "city": "Fortaleza",
+    "phone": "+55 85 98541-5185",
+    "cleanPhone": "+5585985415185",
+    "fullAddress": "Av. Professor Gomes de Matos, 138 - LJ 07 - Jardim América, Fortaleza - CE, 60410-424, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSlphdkNQ",
+    "name": "Salão de Beleza Fortaleza | Kblos",
+    "category": "Salão de Beleza",
+    "city": "Fortaleza",
+    "phone": "+55 85 98735-5060",
+    "cleanPhone": "+5585987355060",
+    "fullAddress": "101, Av. Antônio Sales, 49 - Joaquim Távora, Fortaleza - CE, 60135-101, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSkFSRGZt",
+    "name": "Salão de beleza em fortaleza",
+    "category": "Salão de Beleza",
+    "city": "Fortaleza",
+    "phone": "+55 85 98747-9730",
+    "cleanPhone": "+5585987479730",
+    "fullAddress": "R. Monsenhor Catão, 1167 - Aldeota, Fortaleza - CE, 60175-000, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSm1Wdnh4",
+    "name": "Salao de Beleza Fortaleza | You Beauty Salão",
+    "category": "Salão de Beleza",
+    "city": "Fortaleza",
+    "phone": "+55 85 99719-6452",
+    "cleanPhone": "+5585997196452",
+    "fullAddress": "R. Walter Bezerra de Sá, 155 - Dionísio Torres, Fortaleza - CE, 60135-225, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSl9fdFhr",
+    "name": "Salão Show de Beleza",
+    "category": "Salão de Beleza",
+    "city": "Fortaleza",
+    "phone": "+55 85 3036-4831",
+    "cleanPhone": "+558530364831",
+    "fullAddress": "R. Barbosa de Freitas, 1779 - Aldeota, Fortaleza - CE, 60170-021, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSjQ0Y0Rk",
+    "name": "Studio Bella Trindade",
+    "category": "Salão de Beleza",
+    "city": "Fortaleza",
+    "phone": "+55 85 99232-0676",
+    "cleanPhone": "+5585992320676",
+    "fullAddress": "Av. da Abolição, 3450 - Meireles, Fortaleza - CE, 60165-082, Brasil",
+    "website": "",
+    "searchTerm": "salão de beleza em Fortaleza CE"
   }
 ]
