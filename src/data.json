@@ -272,5 +272,49 @@
     "fullAddress": "Av. Eduardo Ribeiro, 629 - Centro, Manaus - AM, 69010-001, Brasil",
     "website": "",
     "searchTerm": "restaurantes em Manaus AM"
+  },
+  {
+    "id": "Q2hJSmg4V3BY",
+    "name": "Íz por Ian Baiocchi",
+    "category": "Restaurante",
+    "city": "Goiânia",
+    "phone": "+55 62 98131-0673",
+    "cleanPhone": "+5562981310673",
+    "fullAddress": "R. 1130, 25 - St. Marista, Goiânia - GO, 74180-090, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSk9WNEdl",
+    "name": "Izu Japanese - Jardim Goiás",
+    "category": "Restaurante japonês",
+    "city": "Goiânia",
+    "phone": "+55 62 3507-4338",
+    "cleanPhone": "+556235074338",
+    "fullAddress": "Av. Dep. Jamel Cecílio, 2370 - Jardim Goiás, Goiânia - GO, 74085-580, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSkFTTzYt",
+    "name": "Famu Restaurante",
+    "category": "Restaurante",
+    "city": "Goiânia",
+    "phone": "+55 62 99258-0220",
+    "cleanPhone": "+5562992580220",
+    "fullAddress": "Av. D, Qd. D12, Lt. 8,9 - St. Marista, Goiânia - GO, 74150-040, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSmNhRXgw",
+    "name": "Las Nenas Restaurante",
+    "category": "Restaurante",
+    "city": "Goiânia",
+    "phone": "+55 62 99909-1011",
+    "cleanPhone": "+5562999091011",
+    "fullAddress": "Av. 136, Nº 20 - Nº 20 - St. Marista, Goiânia - GO, 74180-040, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Goiânia GO"
   }
 ]
