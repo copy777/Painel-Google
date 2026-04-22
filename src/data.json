@@ -316,5 +316,16 @@
     "fullAddress": "Av. 136, Nº 20 - Nº 20 - St. Marista, Goiânia - GO, 74180-040, Brasil",
     "website": "",
     "searchTerm": "restaurantes em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSnJSeEd5",
+    "name": "Alameda dos Pães Bakery - Padaria em Jardins, São Paulo",
+    "category": "Padaria",
+    "city": "São Paulo",
+    "phone": "+55 11 3083-6676",
+    "cleanPhone": "+551130836676",
+    "fullAddress": "Alameda Lorena, 805 - Jardins, São Paulo - SP, 01424-005, Brasil",
+    "website": "",
+    "searchTerm": "padarias em São Paulo SP"
   }
 ]
