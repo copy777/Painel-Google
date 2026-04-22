@@ -327,5 +327,16 @@
     "fullAddress": "Alameda Lorena, 805 - Jardins, São Paulo - SP, 01424-005, Brasil",
     "website": "",
     "searchTerm": "padarias em São Paulo SP"
+  },
+  {
+    "id": "Q2hJSnhYTHZu",
+    "name": "Padarias Curitiba",
+    "category": "Padaria",
+    "city": "Curitiba",
+    "phone": "+55 41 3501-4991",
+    "cleanPhone": "+554135014991",
+    "fullAddress": "Av. Sen. Salgado Filho, 1229 - Guabirotuba, Curitiba - PR, 81510-000, Brasil",
+    "website": "",
+    "searchTerm": "padarias em Curitiba PR"
   }
 ]
