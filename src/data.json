@@ -140,5 +140,82 @@
     "fullAddress": "R. do Futuro, 634 - Graças, Recife - PE, 52050-005, Brasil",
     "website": "",
     "searchTerm": "restaurantes em Recife PE"
+  },
+  {
+    "id": "Q2hJSjQxY0ot",
+    "name": "Recôncavo Culinária",
+    "category": "Restaurante",
+    "city": "Salvador",
+    "phone": "+55 71 3512-7326",
+    "cleanPhone": "+557135127326",
+    "fullAddress": "R. Prof. Fernando Luz, 63 - Barra, Salvador - BA, 40140-160, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Salvador BA"
+  },
+  {
+    "id": "Q2hJSkJYUVZO",
+    "name": "Vishnu Culinária Indiana",
+    "category": "Restaurante indiano",
+    "city": "Salvador",
+    "phone": "+55 71 98400-5909",
+    "cleanPhone": "+5571984005909",
+    "fullAddress": "R. Itabuna, 286 a - Rio Vermelho, Salvador - BA, 41940-650, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Salvador BA"
+  },
+  {
+    "id": "Q2hJSnV6eHoy",
+    "name": "Casa Vieja Res 🇨🇴",
+    "category": "Restaurante colombiano",
+    "city": "Carrollton",
+    "phone": "(972) 416-8172",
+    "cleanPhone": "+559724168172",
+    "fullAddress": "1927 E Belt Line Rd #152, Carrollton, TX 75006",
+    "website": "",
+    "searchTerm": "restaurantes em Salvador BA"
+  },
+  {
+    "id": "Q2hJSkVUNnIx",
+    "name": "Wallie's Seafood (Food Truck)",
+    "category": "Restaurante de frutos do mar",
+    "city": "Houston",
+    "phone": "(985) 788-2426",
+    "cleanPhone": "+559857882426",
+    "fullAddress": "8108 Cullen Blvd, Houston, TX 77051",
+    "website": "",
+    "searchTerm": "restaurantes em Salvador BA"
+  },
+  {
+    "id": "Q2hJSnRaRXp2",
+    "name": "Reina's Restaurant #2",
+    "category": "Restaurante de gastronomia de El Salvador",
+    "city": "Houston",
+    "phone": "(281) 564-7966",
+    "cleanPhone": "+552815647966",
+    "fullAddress": "15000 Bellaire Blvd, Houston, TX 77083",
+    "website": "",
+    "searchTerm": "restaurantes em Salvador BA"
+  },
+  {
+    "id": "Q2hJSndVRFlL",
+    "name": "Tienda & Restaurant Latina",
+    "category": "Restaurante de gastronomia de El Salvador",
+    "city": "Dallas",
+    "phone": "(214) 330-0011",
+    "cleanPhone": "+552143300011",
+    "fullAddress": "4950 W Illinois Ave #115, Dallas, TX 75211",
+    "website": "",
+    "searchTerm": "restaurantes em Salvador BA"
+  },
+  {
+    "id": "Q2hJSmRfUmls",
+    "name": "Banh Cuon Hoa #2",
+    "category": "Restaurante vietnamita",
+    "city": "Houston",
+    "phone": "(281) 495-9556",
+    "cleanPhone": "+552814959556",
+    "fullAddress": "11169 Beechnut St, Houston, TX 77072",
+    "website": "",
+    "searchTerm": "restaurantes em Salvador BA"
   }
 ]
