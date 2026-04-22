@@ -360,5 +360,16 @@
     "fullAddress": "R. Pamplona, 1704 - Piso 1 - Jardim Paulista, São Paulo - SP, 01405-002, Brasil",
     "website": "",
     "searchTerm": "barbearias em São Paulo SP"
+  },
+  {
+    "id": "Q2hJSjFVVVRB",
+    "name": "Barbearia From Rio",
+    "category": "Barbearia",
+    "city": "Rio de Janeiro",
+    "phone": "+55 21 96807-0142",
+    "cleanPhone": "+5521968070142",
+    "fullAddress": "Av. Nossa Sra. de Copacabana, 187 - Loja D - Copacabana, Rio de Janeiro - RJ, 22020-002, Brasil",
+    "website": "",
+    "searchTerm": "barbearias em Rio de Janeiro RJ"
   }
 ]
