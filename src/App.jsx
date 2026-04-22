@@ -4,7 +4,7 @@ import leadsData from './data.json';
 import './App.css';
 
 function LeadCard({ lead }) {
-  const whatsappLink = `https://wa.me/${lead.phone.replace(/\D/g, '')}?text=Olá,%20somos%20uma%20agência%20digital%20e%20percebemos%20que%20o%20${lead.name}%20não%20possui%20site.`;
+  const whatsappLink = `https://wa.me/${lead.cleanPhone.replace(/\D/g, '')}?text=Olá,%20somos%20uma%20agência%20digital%20e%20percebemos%20que%20o%20${lead.name}%20não%20possui%20site.`;
   const mapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(lead.fullAddress + ', ' + lead.city)}`;
 
   return (
