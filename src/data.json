@@ -338,5 +338,27 @@
     "fullAddress": "Av. Sen. Salgado Filho, 1229 - Guabirotuba, Curitiba - PR, 81510-000, Brasil",
     "website": "",
     "searchTerm": "padarias em Curitiba PR"
+  },
+  {
+    "id": "Q2hJSmMwZXVN",
+    "name": "São Paulo barbearia",
+    "category": "Barbearia",
+    "city": "São Paulo",
+    "phone": "+55 11 93759-4342",
+    "cleanPhone": "+5511937594342",
+    "fullAddress": "R. Rodesia, 230 - Sumarezinho, São Paulo - SP, 05435-020, Brasil",
+    "website": "",
+    "searchTerm": "barbearias em São Paulo SP"
+  },
+  {
+    "id": "Q2hJSnVhVGpH",
+    "name": "Barbearia visagista no Jardim Paulista - Trezentos Barber Shop",
+    "category": "Barbearia",
+    "city": "São Paulo",
+    "phone": "+55 11 93298-9958",
+    "cleanPhone": "+5511932989958",
+    "fullAddress": "R. Pamplona, 1704 - Piso 1 - Jardim Paulista, São Paulo - SP, 01405-002, Brasil",
+    "website": "",
+    "searchTerm": "barbearias em São Paulo SP"
   }
 ]
