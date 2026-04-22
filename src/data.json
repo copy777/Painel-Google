@@ -217,5 +217,60 @@
     "fullAddress": "11169 Beechnut St, Houston, TX 77072",
     "website": "",
     "searchTerm": "restaurantes em Salvador BA"
+  },
+  {
+    "id": "Q2hJSi1TN3Bk",
+    "name": "Roseiral Restaurante",
+    "category": "Restaurante",
+    "city": "Manaus",
+    "phone": "+55 92 98430-2080",
+    "cleanPhone": "+5592984302080",
+    "fullAddress": "R. José Clemente, 600 - Centro, Manaus - AM, 69010-070, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Manaus AM"
+  },
+  {
+    "id": "Q2hJSjNUdnZP",
+    "name": "Choupana Cozinha Regional",
+    "category": "Restaurante",
+    "city": "Manaus",
+    "phone": "+55 92 99234-3878",
+    "cleanPhone": "+5592992343878",
+    "fullAddress": "Av. Mário Ypiranga, 790 - Adrianópolis, Manaus - AM, 69057-001, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Manaus AM"
+  },
+  {
+    "id": "Q2hJSkgxTVNL",
+    "name": "Restaurante Caxiri Manaus",
+    "category": "Restaurante",
+    "city": "Manaus",
+    "phone": "+55 92 98405-4769",
+    "cleanPhone": "+5592984054769",
+    "fullAddress": "Rua 10 de Julho, 495 - Centro, Manaus - AM, 69010-000, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Manaus AM"
+  },
+  {
+    "id": "Q2hJSi04V1Jz",
+    "name": "Quintal Gastronômico",
+    "category": "Restaurante",
+    "city": "Manaus",
+    "phone": "+55 92 99133-1819",
+    "cleanPhone": "+5592991331819",
+    "fullAddress": "Av. Rio Madeira, 710 - Nossa Sra. das Graças, Manaus - AM, 69053-030, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Manaus AM"
+  },
+  {
+    "id": "Q2hJSkY1VFBj",
+    "name": "Skina dos Sucos",
+    "category": "Lanchonete",
+    "city": "Manaus",
+    "phone": "+55 92 3233-1970",
+    "cleanPhone": "+559232331970",
+    "fullAddress": "Av. Eduardo Ribeiro, 629 - Centro, Manaus - AM, 69010-001, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Manaus AM"
   }
 ]
