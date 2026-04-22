@@ -492,5 +492,71 @@
     "fullAddress": "Av. da Abolição, 3450 - Meireles, Fortaleza - CE, 60165-082, Brasil",
     "website": "",
     "searchTerm": "salão de beleza em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSkR6eVZD",
+    "name": "OFICINA AFINAUTO - JOEL e JR",
+    "category": "Oficina mecânica",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3422-6776",
+    "cleanPhone": "+553134226776",
+    "fullAddress": "R. Abaeté, 52 - Bonfim, Belo Horizonte - MG, 31210-390, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSlVkNEEx",
+    "name": "Club Auto BH (Somente Agendado)",
+    "category": "Oficina mecânica",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3564-7127",
+    "cleanPhone": "+553135647127",
+    "fullAddress": "R. Juarez, 103 - União, Belo Horizonte - MG, 31170-700, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSlI5YUxv",
+    "name": "Auto Mecânica Minas Gerais LTDA",
+    "category": "Oficina mecânica",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 99177-4127",
+    "cleanPhone": "+5531991774127",
+    "fullAddress": "Av. Amazonas, 3360 - Alto Barroca, Belo Horizonte - MG, 30411-220, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSlUwcnc3",
+    "name": "Mecânica Godinho",
+    "category": "Mecânica para carros",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3426-5200",
+    "cleanPhone": "+553134265200",
+    "fullAddress": "R. Joaquim Francisco da Silveira, 14 - Ipiranga, Belo Horizonte - MG, 31160-200, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSkZ5Vllw",
+    "name": "Gustavokar Mecânico a Domicílio & centro automotivo",
+    "category": "Oficina mecânica",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 99210-9126",
+    "cleanPhone": "+5531992109126",
+    "fullAddress": "R. Maria de Lourdes Manso, 164 - Indústrias I (Barreiro), Belo Horizonte - MG, 30610-320, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSkUxWnJ5",
+    "name": "Lau Car Oficina Mecânica Floresta BH",
+    "category": "Oficina mecânica",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 2555-5911",
+    "cleanPhone": "+553125555911",
+    "fullAddress": "R. Campo Alegre, 80 - Floresta, Belo Horizonte - MG, 31015-200, Brasil",
+    "website": "",
+    "searchTerm": "oficinas mecânicas em Belo Horizonte MG"
   }
 ]
