@@ -800,5 +800,60 @@
     "fullAddress": "R. do Comercio, 14 - Parque 10 de Novembro, Manaus - AM, 69055-000, Brasil",
     "website": "",
     "searchTerm": "supermercados em Manaus AM"
+  },
+  {
+    "id": "Q2hJSnJ4NXA5",
+    "name": "Loja de roupas feminina em Salvador / Blend moda feminina",
+    "category": "Loja de moda feminina",
+    "city": "Salvador",
+    "phone": "+55 71 98836-3424",
+    "cleanPhone": "+5571988363424",
+    "fullAddress": "Rua Oswaldo Cruz, 222 - loja 04 - Rio Vermelho, Salvador - BA, 41940-000, Brasil",
+    "website": "",
+    "searchTerm": "lojas de roupa em Salvador BA"
+  },
+  {
+    "id": "Q2hJSkg1dUUw",
+    "name": "ARIANNA LOJA",
+    "category": "Loja de Roupa",
+    "city": "Salvador",
+    "phone": "+55 71 99216-1608",
+    "cleanPhone": "+5571992161608",
+    "fullAddress": "R. da Alfazema, 752 - Loja 12 - Caminho das Árvores, Salvador - BA, 41820-710, Brasil",
+    "website": "",
+    "searchTerm": "lojas de roupa em Salvador BA"
+  },
+  {
+    "id": "Q2hJSmcxcHl5",
+    "name": "O MAIOR BARATO",
+    "category": "Loja",
+    "city": "Salvador",
+    "phone": "+55 71 99190-3712",
+    "cleanPhone": "+5571991903712",
+    "fullAddress": "Av. Antônio Carlos Magalhães, 1034 - Itaigara, Salvador - BA, 41825-906, Brasil",
+    "website": "",
+    "searchTerm": "lojas de roupa em Salvador BA"
+  },
+  {
+    "id": "Q2hJSldYWEZt",
+    "name": "Loja Elegance moda feminina",
+    "category": "Loja de Roupa",
+    "city": "Salvador",
+    "phone": "+55 71 98740-5751",
+    "cleanPhone": "+5571987405751",
+    "fullAddress": "R. Marquês de Maricá, 126 - Pau Miúdo, Salvador - BA, 40310-000, Brasil",
+    "website": "",
+    "searchTerm": "lojas de roupa em Salvador BA"
+  },
+  {
+    "id": "Q2hJSkF6aThs",
+    "name": "Dymilla Store - Moda Feminina - Itapuã",
+    "category": "Loja de Roupa",
+    "city": "Salvador",
+    "phone": "+55 71 98844-4101",
+    "cleanPhone": "+5571988444101",
+    "fullAddress": "R. do Tamarineiro, 23 - Itapuã, Salvador - BA, 41610-430, Brasil",
+    "website": "",
+    "searchTerm": "lojas de roupa em Salvador BA"
   }
 ]
