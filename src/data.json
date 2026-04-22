@@ -63,5 +63,38 @@
     "fullAddress": "R. dos Bandeirantes, 66 - Cambuí, Campinas - SP, 13024-010, Brasil",
     "website": "",
     "searchTerm": "restaurantes em Campinas SP"
+  },
+  {
+    "id": "Q2hJSnN4VU02",
+    "name": "Villa Restaurante",
+    "category": "Restaurante",
+    "city": "Fortaleza",
+    "phone": "+55 85 3879-0120",
+    "cleanPhone": "+558538790120",
+    "fullAddress": "R. Maria Tomásia, 718 - Aldeota, Fortaleza - CE, 60150-170, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSkpjelpD",
+    "name": "Coco Bambu Iguatemi: Restaurante, Peixe, Camarão, Carnes, Lagosta, Fortaleza, CE",
+    "category": "Restaurante",
+    "city": "Fortaleza",
+    "phone": "+55 85 2180-7710",
+    "cleanPhone": "+558521807710",
+    "fullAddress": "Av. Washington Soares, 85 - Edson Queiroz, Fortaleza - CE, 60810-060, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Fortaleza CE"
+  },
+  {
+    "id": "Q2hJSkgxNjN5",
+    "name": "The Press Lounge",
+    "category": "Restaurante",
+    "city": "New York",
+    "phone": "(212) 757-2224",
+    "cleanPhone": "+552127572224",
+    "fullAddress": "653 11th Ave 16th Floor, New York, NY 10036",
+    "website": "",
+    "searchTerm": "restaurantes em Fortaleza CE"
   }
 ]
