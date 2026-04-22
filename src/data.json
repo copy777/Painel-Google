@@ -877,5 +877,60 @@
     "fullAddress": "Av. São José, 618 - Sala 1001 - Cristo Rei, Curitiba - PR, 80050-350, Brasil",
     "website": "",
     "searchTerm": "dentistas em Curitiba PR"
+  },
+  {
+    "id": "Q2hJSmdiMlNE",
+    "name": "Dra. Nathalia Lacet",
+    "category": "Dentista",
+    "city": "Recife",
+    "phone": "+55 81 99669-5149",
+    "cleanPhone": "+5581996695149",
+    "fullAddress": "Estr. do Arraial, 2483 - Sala 1006 - Tamarineira, Recife - PE, 52051-380, Brasil",
+    "website": "",
+    "searchTerm": "dentistas em Recife PE"
+  },
+  {
+    "id": "Q2hJSlVRTVQy",
+    "name": "Face + Odontologia Integrada",
+    "category": "Clínica odontológica",
+    "city": "Recife",
+    "phone": "+55 81 98224-2765",
+    "cleanPhone": "+5581982242765",
+    "fullAddress": "Empresarial Casa Grande Derby, Praça do Derby, |, 149 - 8° andar - sala 809 - Derby, Recife - PE, 52010-140, Brasil",
+    "website": "",
+    "searchTerm": "dentistas em Recife PE"
+  },
+  {
+    "id": "Q2hJSmRZMHFQ",
+    "name": "Clínica Aldo & Erika Bezerra",
+    "category": "Periodontia e implantes dentários",
+    "city": "Recife",
+    "phone": "+55 81 98786-8666",
+    "cleanPhone": "+5581987868666",
+    "fullAddress": "Empresarial Ítalo Brasil Renda - Av. Conselheiro Aguiar, 1748 - 907 - Boa Viagem, Recife - PE, 51111-010, Brasil",
+    "website": "",
+    "searchTerm": "dentistas em Recife PE"
+  },
+  {
+    "id": "Q2hJSlgycWRo",
+    "name": "Toque Dental",
+    "category": "Clínica odontológica",
+    "city": "Recife",
+    "phone": "+55 81 99103-8596",
+    "cleanPhone": "+5581991038596",
+    "fullAddress": "Av. Eng. Domingos Ferreira, 2391 - Boa Viagem, Recife - PE, 51020-031, Brasil",
+    "website": "",
+    "searchTerm": "dentistas em Recife PE"
+  },
+  {
+    "id": "Q2hJSlhkczNF",
+    "name": "Dra Michelle Ribeiro | Dentista | Oral Recife Clínica Odontológica | Cirurgiã buco maxilo facial | Implante Dentário",
+    "category": "Clínica odontológica",
+    "city": "Recife",
+    "phone": "+55 81 99678-6900",
+    "cleanPhone": "+5581996786900",
+    "fullAddress": "Rio Mar Trade Center Torre 3 - Av. República do Líbano, 251 - sala 409 - Pina, Recife - PE, 51110-160, Brasil",
+    "website": "",
+    "searchTerm": "dentistas em Recife PE"
   }
 ]
