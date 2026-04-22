@@ -954,5 +954,60 @@
     "fullAddress": "Av. Brigadeiro Luís Antônio, 1786 - Bela Vista, São Paulo - SP, 01318-002, Brasil",
     "website": "",
     "searchTerm": "academias em São Paulo SP"
+  },
+  {
+    "id": "Q2hJSi0tTVRD",
+    "name": "Deck Academia",
+    "category": "Academia",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3041-0513",
+    "cleanPhone": "+553130410513",
+    "fullAddress": "R. Dores do Indaiá, 246 - Santa Tereza, Belo Horizonte - MG, 31010-360, Brasil",
+    "website": "",
+    "searchTerm": "academias em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSndiZ3Rp",
+    "name": "Academia Impacto Center",
+    "category": "Academia de artes marciais",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3271-7293",
+    "cleanPhone": "+553132717293",
+    "fullAddress": "Av. Amazonas, 1323 - Barro Preto, Belo Horizonte - MG, 30180-002, Brasil",
+    "website": "",
+    "searchTerm": "academias em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSnNVS1pY",
+    "name": "STUDIO VICTÓRIA FITNESS ACADEMIA",
+    "category": "Academia",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 97111-7987",
+    "cleanPhone": "+5531971117987",
+    "fullAddress": "R. Jacuí, 1467 - Floresta, Belo Horizonte - MG, 31110-050, Brasil",
+    "website": "",
+    "searchTerm": "academias em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSnN6ejVr",
+    "name": "Tribheca Natação e Fitness",
+    "category": "Academia",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3654-3529",
+    "cleanPhone": "+553136543529",
+    "fullAddress": "R. Jacuí, 505 - Floresta, Belo Horizonte - MG, 31110-050, Brasil",
+    "website": "",
+    "searchTerm": "academias em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSm5Vbkxp",
+    "name": "StationFit Academia",
+    "category": "Academia",
+    "city": "Belo Horizonte",
+    "phone": "+55 31 3643-4599",
+    "cleanPhone": "+553136434599",
+    "fullAddress": "Av. Amazonas, 687 - Sobreloja - Centro, Belo Horizonte - MG, 30180-001, Brasil",
+    "website": "",
+    "searchTerm": "academias em Belo Horizonte MG"
   }
 ]
