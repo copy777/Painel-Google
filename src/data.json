@@ -679,5 +679,82 @@
     "fullAddress": "Av. Pres. Vargas, 2940 - Cidade Nova, Rio de Janeiro - RJ, 20210-031, Brasil",
     "website": "",
     "searchTerm": "oficinas mecânicas em Rio de Janeiro RJ"
+  },
+  {
+    "id": "Q2hJSmozSUls",
+    "name": "Drogasil",
+    "category": "Farmácia",
+    "city": "Goiânia",
+    "phone": "+55 62 99990-8827",
+    "cleanPhone": "+5562999908827",
+    "fullAddress": "Av. T-63, 980 - Quadra 58 - Lote 05 - St. Bueno, Goiânia - GO, 74230-100, Brasil",
+    "website": "",
+    "searchTerm": "farmácias em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSmk0b05h",
+    "name": "Drogaria Goiânia",
+    "category": "Farmácia",
+    "city": "Goiânia",
+    "phone": "+55 62 3218-5135",
+    "cleanPhone": "+556232185135",
+    "fullAddress": "Atendimento>(629864 - 2845___Av. Universitária, 809 - Setor Leste Universitário, Goiânia - GO, 08746-050, Brasil",
+    "website": "",
+    "searchTerm": "farmácias em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSlBmV2tx",
+    "name": "Drogasil",
+    "category": "Farmácia",
+    "city": "Goiânia",
+    "phone": "+55 61 99851-8027",
+    "cleanPhone": "+5561998518027",
+    "fullAddress": "Av. Dr. Ismerino Soares de Carvalho, 738 - Quadra 19 Lote 1 A - St. Aeroporto, Goiânia - GO, 74075-040, Brasil",
+    "website": "",
+    "searchTerm": "farmácias em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSnd6dVd1",
+    "name": "Drogasil",
+    "category": "Farmácia",
+    "city": "Goiânia",
+    "phone": "+55 62 99611-9250",
+    "cleanPhone": "+5562996119250",
+    "fullAddress": "R. 10, 248 - St. Sul, Goiânia - GO, 74080-420, Brasil",
+    "website": "",
+    "searchTerm": "farmácias em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSjUxQUdf",
+    "name": "Drogasil",
+    "category": "Farmácia",
+    "city": "Goiânia",
+    "phone": "+55 62 99929-2017",
+    "cleanPhone": "+5562999292017",
+    "fullAddress": "Av. H - Jardim Goiás, Goiânia - GO, 74810-070, Brasil",
+    "website": "",
+    "searchTerm": "farmácias em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSk41VUNu",
+    "name": "Drogasil",
+    "category": "Farmácia",
+    "city": "Goiânia",
+    "phone": "+55 62 99926-3658",
+    "cleanPhone": "+5562999263658",
+    "fullAddress": "Av. T-7, 788 - St. Bueno, Goiânia - GO, 74210-260, Brasil",
+    "website": "",
+    "searchTerm": "farmácias em Goiânia GO"
+  },
+  {
+    "id": "Q2hJSjd3TkFq",
+    "name": "Drogasil",
+    "category": "Farmácia",
+    "city": "Goiânia",
+    "phone": "+55 62 99917-6736",
+    "cleanPhone": "+5562999176736",
+    "fullAddress": "Av. Ver. José Monteiro, 1730 - Quadra 8 Lote 4 - Setor Negrão de Lima, Goiânia - GO, 74650-300, Brasil",
+    "website": "",
+    "searchTerm": "farmácias em Goiânia GO"
   }
 ]
