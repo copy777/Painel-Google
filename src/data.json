@@ -932,5 +932,27 @@
     "fullAddress": "Rio Mar Trade Center Torre 3 - Av. República do Líbano, 251 - sala 409 - Pina, Recife - PE, 51110-160, Brasil",
     "website": "",
     "searchTerm": "dentistas em Recife PE"
+  },
+  {
+    "id": "Q2hJSnUzVVJ5",
+    "name": "Academia Gaviões 24h - Paulista",
+    "category": "Academia",
+    "city": "São Paulo",
+    "phone": "+55 11 3285-3269",
+    "cleanPhone": "+551132853269",
+    "fullAddress": "R. Treze de Maio, 812 - Bela Vista, São Paulo - SP, 01327-000, Brasil",
+    "website": "",
+    "searchTerm": "academias em São Paulo SP"
+  },
+  {
+    "id": "Q2hJSi1lT2Fp",
+    "name": "SP/UP",
+    "category": "Academia",
+    "city": "São Paulo",
+    "phone": "+55 11 2609-4477",
+    "cleanPhone": "+551126094477",
+    "fullAddress": "Av. Brigadeiro Luís Antônio, 1786 - Bela Vista, São Paulo - SP, 01318-002, Brasil",
+    "website": "",
+    "searchTerm": "academias em São Paulo SP"
   }
 ]
