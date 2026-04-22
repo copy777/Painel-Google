@@ -30,5 +30,38 @@
     "fullAddress": "R. dos Tamóios, 232 - Centro, Belo Horizonte - MG, 30120-050, Brasil",
     "website": "",
     "searchTerm": "restaurantes em Belo Horizonte MG"
+  },
+  {
+    "id": "Q2hJSlozMV9z",
+    "name": "Bad Bone Parrilla Bar e Restaurante - Campinas",
+    "category": "Restaurante",
+    "city": "Campinas",
+    "phone": "+55 19 97163-0502",
+    "cleanPhone": "+5519971630502",
+    "fullAddress": "Av. Dr. Heitor Penteado, 981 - Taquaral, Campinas - SP, 13075-460, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Campinas SP"
+  },
+  {
+    "id": "Q2hJSkNWOGxQ",
+    "name": "Estação Mogiana (Novo Botafogo)",
+    "category": "Churrascaria",
+    "city": "Campinas",
+    "phone": "+55 19 3212-1880",
+    "cleanPhone": "+551932121880",
+    "fullAddress": "R. Angelino Rossi, 12 - Jardim Novo Botafogo, Campinas - SP, 13070-231, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Campinas SP"
+  },
+  {
+    "id": "Q2hJSkdlejVh",
+    "name": "LUME",
+    "category": "Restaurante",
+    "city": "Campinas",
+    "phone": "+55 19 3579-5125",
+    "cleanPhone": "+551935795125",
+    "fullAddress": "R. dos Bandeirantes, 66 - Cambuí, Campinas - SP, 13024-010, Brasil",
+    "website": "",
+    "searchTerm": "restaurantes em Campinas SP"
   }
 ]
