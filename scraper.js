@@ -2,89 +2,166 @@ import { ApifyClient } from 'apify-client';
 import dotenv from 'dotenv';
 import fs from 'fs/promises';
 import path from 'path';
+import { execSync } from 'child_process';
 
-// Carrega as variáveis do .env
 dotenv.config();
 
-// Inicializa o cliente da Apify
-const client = new ApifyClient({
-    token: process.env.APIFY_API_TOKEN,
-});
+const client = new ApifyClient({ token: process.env.APIFY_API_TOKEN });
 
-async function runScraper() {
-    console.log("🚀 Iniciando a raspagem do Google Maps pela Apify...");
-    console.log("Isso pode demorar alguns minutos. Tenha paciência!");
+// ========================================================
+//  CONFIGURAÇÃO DE BUSCA - cidades e categorias
+// ========================================================
+const SEARCHES = [
+  // Restaurantes
+  "restaurantes em São Paulo SP",
+  "restaurantes em Rio de Janeiro RJ",
+  "restaurantes em Belo Horizonte MG",
+  "restaurantes em Curitiba PR",
+  "restaurantes em Campinas SP",
+  "restaurantes em Fortaleza CE",
+  "restaurantes em Recife PE",
+  "restaurantes em Salvador BA",
+  "restaurantes em Manaus AM",
+  "restaurantes em Goiânia GO",
 
-    // Termos de busca (você pode alterar para o que quiser)
-    const searchTerms = [
-        "restaurantes em campinas"
-        // Pode adicionar mais itens após a vírgula: "oficina mecanica no rio de janeiro"
-    ];
+  // Comércios locais
+  "padarias em São Paulo SP",
+  "padarias em Curitiba PR",
+  "barbearias em São Paulo SP",
+  "barbearias em Rio de Janeiro RJ",
+  "salão de beleza em Campinas SP",
+  "salão de beleza em Fortaleza CE",
+  "oficinas mecânicas em Belo Horizonte MG",
+  "oficinas mecânicas em Rio de Janeiro RJ",
+  "farmácias em Goiânia GO",
+  "supermercados em Manaus AM",
+  "lojas de roupa em Salvador BA",
+  "dentistas em Curitiba PR",
+  "dentistas em Recife PE",
+  "academias em São Paulo SP",
+  "academias em Belo Horizonte MG",
+];
 
-    try {
-        // Envia a chamada ao Actor compass/crawler-google-places
-        const run = await client.actor("compass/crawler-google-places").call({
-            searchStringsArray: searchTerms,
-            maxCrawledPlacesPerSearch: 30, // Quantidade que o scraper vai visitar. Aumente se precisar!
-            language: "pt-BR",
-            region: "BR"
-        });
+const MAX_PER_SEARCH = 30; // Quantidade de lugares por busca
 
-        console.log(`✅ Extração concluída da Apify! Baixando amostra de resultados...`);
+// ========================================================
 
-        // Busca os resultados salvos no Dataset da execução
-        const { items } = await client.dataset(run.defaultDatasetId).listItems();
-
-        console.log(`🔍 Total de estabelecimentos na pesquisa crua: ${items.length}`);
-
-        // Filtra para pegar SOMENTE quem NÃO tem site e POSSUI número de telefone
-        const leadsSemSite = items.filter(place => {
-            const hasNoWebsite = !place.website || place.website.trim() === "";
-            const hasPhone = place.phoneUnformatted || place.phone;
-            return hasNoWebsite && hasPhone;
-        });
-
-        console.log(`🎯 Sucesso! Encontrados ${leadsSemSite.length} estabelecimentos SEM SITE.`);
-
-        // Padroniza e limpa para salvar bonitinho no data.json
-        const formattedLeads = leadsSemSite.map((lead, index) => {
-            // Se já vier desformatado (+55119999999), ótimo. Senão, limpamos espaços, traços e parênteses.
-            let cleanPhone = lead.phoneUnformatted || lead.phone || "";
-            cleanPhone = cleanPhone.replace(/[\s\-\(\)\.]/g, ''); 
-            
-            // Garantir que comece com o código do brasil (+55) se não vier
-            if (cleanPhone.startsWith('0')) {
-                cleanPhone = cleanPhone.substring(1);
-            }
-            if (!cleanPhone.includes('+55') && cleanPhone.length >= 10) {
-                 cleanPhone = '+55' + cleanPhone;
-            }
-
-            return {
-                id: Buffer.from(lead.placeId || lead.url || `apify_${index}`).toString('base64').substring(0, 10),
-                name: lead.title || lead.title_pt_BR || lead.name || "Estabelecimento Desconhecido",
-                category: lead.categoryName || "Comércio Local",
-                city: lead.city || lead.neighborhood || lead.state || "Local não identificado",
-                phone: lead.phone || lead.phoneUnformatted,
-                cleanPhone: cleanPhone,
-                fullAddress: lead.address || "Endereço não disponível",
-                website: "" // Garantido que não tem
-            };
-        });
-
-        // Caminho absoluto para o src/data.json
-        const jsonPath = path.join(process.cwd(), 'src', 'data.json');
-        
-        // Sobrescrevemos o data.json com a glória dos dados reais!
-        await fs.writeFile(jsonPath, JSON.stringify(formattedLeads, null, 2), 'utf-8');
-
-        console.log(`✨ Arquivo src/data.json atualizado com ${formattedLeads.length} leads fofos!`);
-
-    } catch (error) {
-        console.error("❌ Ocorreu um erro durante a raspagem do Apify:");
-        console.error(error.message);
-        console.log("Verifique se o Actor 'compass/crawler-google-places' está livre para usar em sua conta ou se precisa chamar 'apify/google-maps-scraper'.");
-    }
+function cleanAndFormatPhone(phone) {
+  if (!phone) return null;
+  let clean = phone.replace(/[\s\-\(\)\.]/g, '');
+  if (clean.startsWith('0')) clean = clean.substring(1);
+  if (!clean.startsWith('+55') && clean.length >= 10) {
+    clean = '+55' + clean;
+  }
+  return clean;
 }
 
-runScraper();
+function makeId(str) {
+  return Buffer.from(str || Math.random().toString()).toString('base64').replace(/[^a-zA-Z0-9]/g, '').substring(0, 12);
+}
+
+async function loadExistingLeads(jsonPath) {
+  try {
+    const raw = await fs.readFile(jsonPath, 'utf-8');
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
+async function scrapeSearch(searchTerm) {
+  console.log(`\n🔍 Buscando: "${searchTerm}"...`);
+  try {
+    const run = await client.actor("compass/crawler-google-places").call({
+      searchStringsArray: [searchTerm],
+      maxCrawledPlacesPerSearch: MAX_PER_SEARCH,
+      language: "pt-BR",
+      region: "BR",
+    });
+
+    const { items } = await client.dataset(run.defaultDatasetId).listItems();
+
+    const filtered = items.filter(place => {
+      const noWebsite = !place.website || place.website.trim() === "";
+      const hasPhone = place.phoneUnformatted || place.phone;
+      return noWebsite && hasPhone;
+    });
+
+    console.log(`   📊 ${items.length} encontrados → ${filtered.length} SEM SITE ✅`);
+
+    return filtered.map(place => {
+      const rawPhone = place.phone || place.phoneUnformatted || "";
+      const cleanPhone = cleanAndFormatPhone(rawPhone);
+      return {
+        id: makeId(place.placeId || place.url),
+        name: place.title || "Estabelecimento",
+        category: place.categoryName || "Comércio Local",
+        city: place.city || place.neighborhood || place.state || "Não informado",
+        phone: rawPhone,
+        cleanPhone: cleanPhone,
+        fullAddress: place.address || "Endereço não disponível",
+        website: "",
+        searchTerm,
+      };
+    });
+  } catch (err) {
+    console.error(`   ❌ Erro na busca "${searchTerm}": ${err.message}`);
+    return [];
+  }
+}
+
+async function saveAndPush(leads, jsonPath) {
+  await fs.writeFile(jsonPath, JSON.stringify(leads, null, 2), 'utf-8');
+  console.log(`\n💾 data.json atualizado com ${leads.length} leads no total.`);
+
+  try {
+    execSync('git add src/data.json', { cwd: process.cwd(), stdio: 'pipe' });
+    execSync(`git commit -m "data: ${leads.length} leads reais sem site via Apify"`, { cwd: process.cwd(), stdio: 'pipe' });
+    execSync('git push origin master', { cwd: process.cwd(), stdio: 'pipe' });
+    console.log(`🚀 GitHub atualizado com ${leads.length} leads!`);
+  } catch (err) {
+    // Se não houver mudança, o commit falha, mas tudo bem
+    if (!err.message.includes('nothing to commit')) {
+      console.log(`⚠️  Git push: ${err.message}`);
+    }
+  }
+}
+
+async function main() {
+  console.log("=".repeat(60));
+  console.log("🚀 SCRAPER APIFY - LEADS REAIS SEM SITE");
+  console.log(`📋 ${SEARCHES.length} buscas programadas | ${MAX_PER_SEARCH} lugares por busca`);
+  console.log("=".repeat(60));
+
+  const jsonPath = path.join(process.cwd(), 'src', 'data.json');
+
+  // Carrega leads ja existentes para não perder dados anteriores
+  let leads = await loadExistingLeads(jsonPath);
+  const existingIds = new Set(leads.map(l => l.id));
+  console.log(`\n📂 ${leads.length} leads já existentes carregados.`);
+
+  let novosTotal = 0;
+
+  for (const term of SEARCHES) {
+    const novosLeads = await scrapeSearch(term);
+
+    // Adiciona somente leads novos (sem duplicar por id)
+    for (const lead of novosLeads) {
+      if (!existingIds.has(lead.id)) {
+        leads.push(lead);
+        existingIds.add(lead.id);
+        novosTotal++;
+      }
+    }
+
+    // Salva e envia pro GitHub depois de CADA busca
+    await saveAndPush(leads, jsonPath);
+  }
+
+  console.log("\n" + "=".repeat(60));
+  console.log(`✨ CONCLUÍDO! ${novosTotal} novos leads adicionados.`);
+  console.log(`📊 Total geral: ${leads.length} leads no painel.`);
+  console.log("=".repeat(60));
+}
+
+main();
